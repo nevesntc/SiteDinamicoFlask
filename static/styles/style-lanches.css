@@ -1,0 +1,80 @@
+/* Estilos para o HTML dos lanches */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc; /* Bege claro */
+}
+
+section {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff; /* Fundo branco para a caixa do item */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Borda arredondada para a imagem */
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+header {
+    color: #fff; 
+    padding: 20px; 
+    font-size: 20px;
+    letter-spacing: 3px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+header a {
+    color: #000000; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    transition: color 0.3s; 
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: black 5px;
+}
+header a:hover {
+    color: rgb(248, 252, 2); 
+    
+}
+
+li {
+    display: inline; 
+    margin-right: 20px; 
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}

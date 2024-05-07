@@ -1,0 +1,99 @@
+/* Estilos para o formulário de contato */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5dc; /* Fundo bege */
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-6 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para a seção */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4caf50; /* Cor de fundo verde */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Cor de fundo verde mais escura ao passar o mouse */
+}
+header {
+    color: #fff; 
+    padding: 20px; 
+    font-size: 20px;
+    letter-spacing: 3px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header a {
+    color: #000000; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    transition: color 0.3s; 
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: black 5px;
+}
+header a:hover {
+    color: rgb(248, 252, 2); 
+    
+}
+
+li {
+    display: inline; 
+    margin-right: 20px; 
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}

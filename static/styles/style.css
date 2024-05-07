@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    border: none;
+    cursor: default;
+}
+
+body{
+    overflow: auto;
+}
+.background{
+    background-image: url("/static/images/cantina.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+    position: relative;
+}
+header {
+    color: #fff; 
+    padding: 20px; 
+    font-size: 20px;
+    letter-spacing: 3px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header a {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    transition: color 0.3s; 
+    cursor: pointer;
+    font-weight: bold;
+    text-shadow: black 5px;
+}
+header a:hover {
+    color: rgb(248, 252, 2); 
+    
+}
+
+.cantinadatia h1{
+    text-align: center;
+}
+li {
+    display: inline; 
+    margin-right: 20px; 
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li{
+    list-style: none;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: text;
+}
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#formulariopracontato {
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px
+}
+#formulariopracontato h2{
+    padding: 1px
+}
+
+.formsback {
+    background-image: url("/static/images/cantina.jpg");
+}
+
+
+.paodequeijo{
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+
+/* style.css */
+
+/* Estilo para a box que contém os lanches */
+.lanches-box {
+    display: flex; /* Usa flexbox para organizar os lanches */
+    justify-content: center; /* Centraliza os lanches horizontalmente */
+    margin-top: 3rem; /* Margem superior para distanciar da parte superior da tela */
+    margin-bottom: 7rem; /* Margem inferior para distanciar do conteúdo abaixo */
+    background-color: black; /* Cor de fundo da box dos lanches */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para o corpo da página */
+.body2 {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url("/static/images/3.jpg");
+    background-size: cover;
+}
+
+/* Estilos para o contêiner dos itens */
+.lanches-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+/* Estilos para cada item de lanche */
+.lanche-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+}
+
+.lanche-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.lanche-item h2 {
+    margin-top: 0;
+}
+
+.lanche-item p {
+    margin-bottom: 0;
+}
+
+/* Estilos para o link de mais informações */
+.lanche-item a {
+    display: block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.lanche-item a:hover {
+    background-color: #ddd;
+}
+.section-6{
+    margin-top: 280px;
+}
+
